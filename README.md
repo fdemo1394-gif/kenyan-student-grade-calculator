@@ -5,11 +5,13 @@ A Python command-line application for calculating student totals, averages, grad
 ## Features
 
 - Handles any number of students, including classes with more than 80 students
+- Includes a modern desktop interface built with Tkinter
 - Accepts Mathematics, Science, and English scores
 - Validates scores between 0 and 100
 - Assigns grades based on the average score
 - Displays a complete class report
 - Calculates the class average and grade distribution
+- Exports class results to CSV
 
 ## Grade scale
 
@@ -24,7 +26,15 @@ A Python command-line application for calculating student totals, averages, grad
 
 - Python 3.9 or later
 
-## Run the program
+## Run the desktop application
+
+```bash
+python app.py
+```
+
+Use the desktop form to add students, review live statistics, and export a CSV report.
+
+## Run the command-line version
 
 ```bash
 python STUDENT_GRADE_CALCULATOR.py
